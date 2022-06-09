@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:'Courier New', Courier, monospace;
+}
+
+.app {
+    width: 600px;
+    margin: 50px auto;
+    text-align: center;
+    position: relative;
+    border: 1px solid #000;
+    border-radius: 3px;
+    padding: 30px 0;
+}
+
+.app .app-search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app .app-search h1 {
+    margin-right: 50px;
+}
+
+.app .app-search .app-input {
+    padding: .7em;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-family: 'Courier New', Courier, monospace;
+}

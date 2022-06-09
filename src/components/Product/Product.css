@@ -1,0 +1,17 @@
+.app .product-container {
+    align-items: center;
+    margin: 0 auto;
+    width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.app .product-container .product-border {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app .product-container .product-border h3 {
+    margin-right: 50px;
+}
